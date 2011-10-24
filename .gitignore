@@ -1,0 +1,12 @@
+# Project Files
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Compiled Output
+target
+
+# Testing
+test-output
+test.log
