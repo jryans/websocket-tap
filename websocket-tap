@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mvn -q compile
+mvn -q exec:java -Dexec.mainClass="com.github.jryans.websockettap.WebSocketTap" -Dexec.args="$*"
