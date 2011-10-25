@@ -1,6 +1,13 @@
 # websocket-tap
 
-This tool allows you to tap into a WebSocket stream to view (and soon modify) the messages as they happen.  This handy for debugging, as current browsers don't provide a way to see the messages exchanged.
+This tool allows you to tap into a WebSocket stream to view (and soon modify) the messages as they happen.
+This is handy for debugging, as current browsers don't provide a way to see the messages exchanged.
+
+## Compatibility
+
+I have only tested this so far with a server and client both using hybi-17 (Chrome 17.0.918.0).
+I would expect things should work with implementations of any hybi draft that uses Sec-WebSocket-Version
+values of 0, 6, 8, or 13, but no testing has been done.
 
 ## Requirements
 
